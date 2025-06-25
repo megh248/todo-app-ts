@@ -94,3 +94,34 @@ button {
     transform: rotate(360deg);
   }
 }
+
+.app-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-container.light {
+  background-color: #fff;
+  max-width: 500px;
+  color: #222;
+}
+
+.app-container.dark {
+  background-color: #222;
+  color: #f4f4f4;
+}
+
+.app-container.dark button {
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+.app-container.dark input,
+.app-container.dark .input {
+  background-color: #333;
+  color: #f4f4f4;
+  border: 1px solid #555;
+}
